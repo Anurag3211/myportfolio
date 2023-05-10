@@ -1,0 +1,280 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <script src="https://kit.fontawesome.com/5a2e4d80fc.js" crossorigin="anonymous"></script>
+    <title>Document</title>
+</head>
+
+<body>
+    <div id="header">
+        <div class="container">
+            <nav>
+                <img src="images/mylogo1.png" alt="" class="logo">
+                <ul id="sidemenu">
+                    <li><a href="#header">Home</a></li>
+                    <li><a href="#about">About</a></li>
+                    <li><a href="#services">Services</a></li>
+                    <li><a href="#portfolio">Portfolio</a></li>
+                    <li><a href="#contact">Contact</a></li>
+                    <i class="fa-regular fa-circle-xmark" onclick="closemenu()"></i>
+                </ul>
+                <i class="fa-solid fa-bars" onclick="openmenu()"></i>
+            </nav>
+
+            <div class="header-text">
+                <p>Software Engineer</p>
+                <h1>Hi, I'm <span>Anurag</span> <br>Yadav From India</h1>
+            </div>
+        </div>
+    </div>
+    <!------------about------------->
+
+
+    <div id="about">
+        <div class="container">
+            <div class="row">
+                <div class="about-col-1">
+                    <img src="C:/Bestproject/myportfolio/images/myimage.jpg" alt="">
+                </div>
+                <div class="about-col-2">
+                    <h1 class="sub-title">About Me</h1>
+                    <p>I am Anurag, a highly motivated BSc Computer Science student at Ismail Yusuf College of Arts,
+                        Commerce, and Science. I possess comprehensive knowledge of primary development languages,
+                        including C++,Java,Node.js, MongoDB, and Angular, and web development with a deep understanding
+                        of software development environments. My considerable talent in achieving critical solutions is
+                        the result of my dedication to constantly improving my skills and knowledge.
+                        <br><br>
+                        With my extensive experience in troubleshooting modern operating systems, I have developed a
+                        keen ability to solve complex problems efficiently. My passion for technology is driven by my
+                        curiosity about how things work, and I am always eager to explore new frontiers in the field.
+                        <br><br>
+                        As a proactive learner, I am constantly seeking new opportunities to apply my knowledge and
+                        skills. I am currently exploring various practical projects in college that will allow me to
+                        enhance my abilities and contribute to real-world solutions.
+                        <br><br>
+                        Thank you for taking the time to learn more about me. I am excited about the possibilities that
+                        lie ahead and look forward to discussing any potential opportunities with you.
+                        <br><br>
+                        Best regards,
+                        <br>
+                        Anurag
+                    </p>
+
+                    <div class="tab-titles ">
+                        <p class="tab-links active-link" onclick="opentab('skills')">Skills</p>
+                        <p class="tab-links" onclick="opentab('experience')">Experience</p>
+                        <p class="tab-links" onclick="opentab('education')">Education</p>
+
+                    </div>
+                    <div class="tab-contents  active-tab" id="skills">
+                        <ul>
+                            <li><span>Full Stack</span><br>Design Web Application</li><br>
+                            <li><span>Web Development </span><br>Frontend and Backend</li><br>
+                            <li><span>App Development</span><br>Building Android/iOS apps</li><br>
+
+                        </ul>
+                    </div>
+                    <div class="tab-contents" id="experience">
+                        <ul>
+                            <li><span>(April-July) 2 Month Internship </span><br>All Stars Digital</li><br>
+                            <li><span> (July-September) 2 Month Internship</span><br>IDZ Digital</li><br>
+                            <li><span> (November-may) 6 Month Internship</span><br>Datamatics</li><br>
+
+                        </ul>
+                    </div>
+                    <div class="tab-contents" id="education">
+                        <ul>
+                            <li><span>2019</span><br> Class Ten I got 59% from Maharashtra Board</li><br>
+                            <li><span>2021</span><br>Class Twelve I got 83.33% from Maharashtra Board</li><br>
+                            <li><span>2023</span><br>Pursuing Bsc Computer science from Ismail Yusuf college</li><br>
+
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!------Services----------->
+    <div id="services">
+        <div class="conatiner">
+            <h1 class="sub-title">
+                My Services
+            </h1>
+            <div class="services-list">
+                <div>
+                    <i class="fa-solid fa-code"></i>
+                    <h2>Web Application Developer</h2>
+                    <p>Lorem ipsum dolor sit amet corrupti delectus ipsa impedit natus sit asperiores, mollitia sed
+                        beatae ipsam unde nobis doloribus dolorem dolore.</p>
+                    <a href="#">learn more</a>
+                </div>
+                <div>
+
+                    <i class="fa-brands fa-app-store"></i>
+                    <h2>App Application Development</h2>
+                    <p>Lorem ipsum dolor sit amet delectus ipsa impedit natus sit asperiores, mollitia sed beatae ipsam
+                        unde nobis doloribus dolorem dolore.</p>
+                    <a href="#">learn more</a>
+                </div>
+                <div>
+                    <i class="fa-brands fa-java"></i>
+                    <h2>Java Development</h2>
+                    <p>Lorem ipsum dolor sit amet consectetur impedit natus sit asperiores, mollitia sed beatae ipsam
+                        unde nobis doloribus dolorem dolore.</p>
+                    <a href="#">learn more</a>
+                </div>
+            </div>
+        </div>
+    </div>
+
+
+
+
+
+    <!---------portfolio-------------->
+
+    <div id="portfolio">
+        <div class="container">
+            <h1 class="sub-tiltle">My Work</h1>
+            <div class="work-list">
+                <div class="work">
+                    <img src="C:/Bestproject/myportfolio/images/image10.png" alt="">
+                    <div class="layer">
+                        <h3>Social Media Application</h3>
+                        <p>The app connects you the talented people around the world.
+                            download it from play store.
+                        </p>
+                        <a href=""><i class="fas fa-external-link-alt"></i></a>
+                    </div>
+                </div>
+                <div class="work">
+                    <img src="C:/Bestproject/myportfolio/images/image11.png" alt="">
+                    <div class="layer">
+                        <h3>Social Media Application</h3>
+                        <p>The app connects you the talented people around the world.
+                            download it from play store.
+                        </p>
+                        <a href=""><i class="fas fa-external-link-alt"></i></a>
+                    </div>
+                </div>
+                <div class="work">
+                    <img src="C:/Bestproject/myportfolio/images/image9.png" alt="">
+                    <div class="layer">
+                        <h3>Social Media Application</h3>
+                        <p>The app connects you the talented people around the world.
+                            download it from play store.
+                        </p>
+                        <a href=""><i class="fas fa-external-link-alt"></i></a>
+                    </div>
+                </div>
+            </div>
+            <a href="" class="btn">See more</a>
+        </div>
+    </div>
+
+    <!------contact------------->
+    <div id="contact">
+        <div class="container">
+            <div class="row">
+                <div class="contact-left">
+                    <div class="sub-title">
+                        <h1 class="sub-title">Contact Me</h1>
+                        <p><i class="fa-regular fa-paper-plane"></i>anurag2426yadav@gmail.com</p>
+                        <p><i class="fa-solid fa-phone-volume"></i>9324458678</p>
+                        <div class="social-icons">
+                            <a href="#"><i class="fab fa-facebook"></i></a>
+                            <a href="#"><i class="fab fa-twitter-square"></i></a>
+                            <a href="" #><i class="fab fa-instagram"></i></a>
+                            <a href="https://www.linkedin.com/in/anurag-yadav-aa491a214/"><i
+                                    class="fab fa-linkedin"></i></a>
+                        </div>
+                    </div>
+                    <a href="C:/Bestproject/myportfolio/images/AnuragCV.docx " download class="btn btn2">Download CV</a>
+                </div>
+                <div class="contact-right">
+                    <form Name="submit-to-google-sheet">
+                        <input type="text" name="Name" placeholder="Your Name" required>
+                        <input type="email" name="Email" placeholder="Your email" required>
+                        <textarea name="Message" rows="6" placeholder="Your Message"></textarea>
+                        <button type="submit" class="btn btn2">Submit</button>
+                    </form>
+                    <span id="msg"></span>
+                </div>
+            </div>
+
+        </div>
+    </div>
+    <div class="copyright">
+        <p>Copyright @ Anurag. Made By <i class="fas fa-heart"></i> Anurag Yadav</p>
+    </div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+    <script>
+        var tablinks = document.getElementsByClassName("tab-links");
+        var tabcontents = document.getElementsByClassName("tab-contents");
+
+        function opentab(tabname) {
+            for (tablink of tablinks) {
+                tablink.classList.remove("active-link");
+            }
+
+            for (tabcontent of tabcontents) {
+                tabcontent.classList.remove("active-tab");
+            }
+            event.currentTarget.classList.add("active-link");
+            document.getElementById(tabname).classList.add("active-tab");
+        }
+    </script>
+
+
+
+    <script>
+        var sidemenu = document.getElementById("sidemenu");
+        function openmenu() {
+            sidemenu.style.right = '0'
+        }
+        function closemenu() {
+            sidemenu.style.right = '-200px'
+        }
+    </script>
+
+
+
+
+    <script>
+        const scriptURL = 'https://script.google.com/macros/s/AKfycbztxtwGvBjB5gFLa5I8ORULH9-5CviqHWYHCPVQ4gMYZ6TRY22NWkPyiFFgmWg6vVm_/exec'
+        const form = document.forms['submit-to-google-sheet']
+        const msg = document.getElementById("msg");
+        form.addEventListener('submit', e => {
+            e.preventDefault()
+            fetch(scriptURL, { method: 'POST', body: new FormData(form) })
+                .then(response => {
+                    msg.innerHTML = 'Message sent successfully';
+                    setTimeout(function () {
+                        msg.innerHTML = "";
+                    }, 2000)
+                    form.reset()
+                })
+                .catch(error => console.error('Error!', error.message))
+        })
+    </script>
+</body>
+
+</html>
