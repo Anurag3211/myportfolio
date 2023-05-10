@@ -109,7 +109,8 @@ nav ul li a:hover::after {
 }
 
 .about-col-2 {
-    flex-wrap: 60%;
+    flex-basis: 60%;
+    
 }
 
 .sub-title {
@@ -300,14 +301,16 @@ nav ul li a:hover::after {
 
 /*-----------------------contact------------------*/
 
-.contact-left {
-    flex-basis: 35%;
 
+
+.contact-left{
+    flex-basis: 35%;
+    
 }
 
 .contact-right {
     flex-basis: 60%;
-
+    
 }
 
 .contact-left p {
